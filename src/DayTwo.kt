@@ -35,7 +35,6 @@ fun main() {
     val filePath = "resources/DayTwo.txt"
 
     val input = File(filePath).readText()
-    println(input.lines())
 
     val reports = input.lines().map { line ->
         line.split(" ").map {
